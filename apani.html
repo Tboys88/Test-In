@@ -36,7 +36,7 @@ window.player = player;
 window.ui = ui; 
 player.addEventListener('error', onPlayerErrorEvent); 
 controls.addEventListener('error', onUIErrorEvent); 
-try{await player.load('https://dcf-fs-live-dazn-cdn.dazn.com/dashdrm/dazn-linear-047/stream.mpd'); 
+try{await player.load('https://dcf-fs-live-dazn-cdn.dazn.com/dashdrm/dazn-linear-047/stream.mpd%7CUser-Agent=Mozilla/5.0%20(Web0S;%20Linux/SmartTV)%20AppleWebKit/537.36%20iPhone%20(KHTML,%20like%20Gecko)%20Version/4.0%20Chrome/107.0.5304.91%20Mobile%20Safari/537.36'); 
 console.log('The video has now been loaded!');} catch (error) {onPlayerError(error);}} 
 function onPlayerErrorEvent(errorEvent) {onPlayerError(event.detail);} 
 function onPlayerError(error) {console.error('Error code', error.code, 'object', error);} 
