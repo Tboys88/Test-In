@@ -164,7 +164,19 @@ ul.crot li button:active {
 background-color: #0d1655;
 }
 
+
+    
 --></style>
+    
+ <style>
+    
+    .video-fill video {
+  object-fit: fill;
+}
+    
+ </style>
+    
+    
 <script>
     // Disable right-click
 document.addEventListener('contextmenu', (e) => e.preventDefault());
@@ -283,6 +295,7 @@ if (Hls.isSupported()) {
     <video class="live video" data-shaka-player="" id="video"></video>
   </div>
 
+    
   <script>
     const 
       manifestUri = 'https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd',
@@ -308,6 +321,7 @@ if (Hls.isSupported()) {
       $(vid).attr({
         "autoplay": "true",
         "preload": "auto",
+          "stretching": "exactfit",
         "playsinline": "true",
         "poster": "https://images.indihometv.com/tvposter/indosiar.png",
         "controlsList": "nodownload noremoteplayback"
