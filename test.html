@@ -1,18 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
+<title>JW Player</title>
 
-	<title>JWPLAYER8</title>
-	
-	<!-- Meta -->
-	<meta charset="utf-8">
+<!-- Meta -->
+<meta charset="utf-8">
 
-	<!-- JavaScript -->
-	<script src="//content.jwplatform.com/libraries/Jq6HIbgz.js"></script>
-  
-  
-<b:skin><![CDATA[ 
+<!-- JavaScript -->
+<script src="https://content.jwplatform.com/libraries/Z79JsmAO.js"></script>
+
+<style>
 
 /* ################################### */
 /* ################################### */
@@ -70,7 +67,7 @@ body {
 }*/
 
 
-/* Título do modal */
+/* TÃ­tulo do modal */
 
 h5.modal-title {
     margin: auto;
@@ -79,7 +76,7 @@ h5.modal-title {
 }
 
 
-/* Botão, close e img */
+/* BotÃ£o, close e img */
 
 .btn-dark {
     margin: auto;
@@ -97,7 +94,7 @@ h5.modal-title {
 /* jwplayer custom skin */
 
 
-/* Botões,play, buffer e replay */
+/* BotÃµes,play, buffer e replay */
 
 .jw-svg-icon-buffer path {
     display: none;
@@ -120,7 +117,7 @@ h5.modal-title {
 }
 
 
-/* Botão Fullscreen */
+/* BotÃ£o Fullscreen */
 
 .jw-svg-icon-fullscreen-on path {
     display: none;
@@ -151,7 +148,7 @@ h5.modal-title {
 }
 
 
-/* Botão play e pause */
+/* BotÃ£o play e pause */
 
 .jw-state-idle .jw-svg-icon-play path {
     display: none;
@@ -192,7 +189,7 @@ h5.modal-title {
 }
 
 
-/* Botão voltar 10 segundos */
+/* BotÃ£o voltar 10 segundos */
 
 .jw-svg-icon-rewind path {
     display: none;
@@ -209,7 +206,7 @@ h5.modal-title {
 }
 
 
-/* Botão de configuração */
+/* BotÃ£o de configuraÃ§Ã£o */
 
 .jw-svg-icon-settings path {
     display: none;
@@ -273,7 +270,7 @@ h5.modal-title {
 }
 
 
-/* Botão Volume */
+/* BotÃ£o Volume */
 
 .jw-svg-icon-volume-100 path {
     display: none;
@@ -317,13 +314,13 @@ h5.modal-title {
     background-image: url('data:image/png;base64,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');
 }
 
-/* Background do botão Play */
+/* Background do botÃ£o Play */
 
 .jwplayer.jw-skin-Netflix.jw-state-idle .jw-controls {
     background: rgba(0, 0, 0, .5);
 }
 
-/* Fundo do botão Play */
+/* Fundo do botÃ£o Play */
 
 .jwplayer.jw-skin-Netflix .jw-display-controls .jw-display-icon-container,
 .jwplayer.jw-skin-Netflix .jw-display-controls .jw-display-icon-container {
@@ -344,7 +341,7 @@ h5.modal-title {
   padding: 0;
 }
 
-/* :Hover botão Play */
+/* :Hover botÃ£o Play */
 
 .jwplayer.jw-skin-Netflix.jw-state-idle .jw-display-controls .jw-display-icon-container:hover {
     background: rgba(0, 0, 0, .5);
@@ -361,7 +358,7 @@ h5.modal-title {
 }
 
 
-/* Título no Meio */
+/* TÃ­tulo no Meio */
 
 .jwplayer.jw-skin-Netflix.jw-state-idle .jw-title {
 	visibility: hidden;
@@ -406,68 +403,64 @@ h5.modal-title {
     background-color: #f6232d;
 }
 
+</style></head>
 
-/* Fim do CSS */
-
-]]></b:skin>
-</head>
 <body>
 
-  <style type="text/css">*{margin:0;padding:0;outline:none;}#container{position:absolute;width:100%!important;height:100%!important;}*:focus{outline:none;}</style>
-	<div id="container"></div>
-  
-  
-  
-  <script type = "text/javascript"> 
+<style type="text/css">*{margin:0;padding:0;outline:none;}#container{position:absolute;width:100%!important;height:100%!important;}*:focus{outline:none;}</style>
 
+<div id="container"></div>
+
+<script>
 jwplayer("container").setup({
 
-		    controls: true,
-		    displaytitle: false,
-		    fullscreen: "true",
-		    primary: 'html5',
-		    stretching: "exactfit",
-		    autostart: false,
+   controls: true,
+   displaytitle: false,
+   fullscreen: "true",
+   primary: 'html5',
+	stretching: "exactfit",
+   autostart: false,
 
-		    skin: {
-		    	name: 'Netflix',
-		    },
+logo: {
+   file: "",
+   position: 'bottom-right'
+   },
 
-		    //sharing: {
-		    	//sites: ["reddit","facebook","twitter"]
-		    //},
-		     
-		    captions: {
-		        color: '#FFF',
-		         fontSize: 14,
-		         backgroundOpacity: 0,
-		         edgeStyle: 'raised' 
-		    },
-
-		  playlist: [{
-		    title: "Bumblebee",
-		    //description: "###",
-		    image: "https://raw.githubusercontent.com/tvbolaonline98/sopporot/main/sbo_logo.png",
-		    sources: [{
-		    file: "https://acong.freemiumiptv.top/mnclokal/live/eds/soccerchannel-test/sa_dash_vmx/soccerchannel-test.mpd", 
-             drm: {
-            widevine: { 'url':"https://drmwidevine.nontonbola.my.id/https://mrpw.ptmnc01.verspective.net/?deviceId=YzM0NDA0MTItMGYyMC0zNGQ0LTliMjMtNDY4MjE1ZjA5NmZj"}},
-              
-		      label: '720p',
-		      'type': 'mpd',
-		      primary: 'html5',
-
-		    }
-		    ],
+   skin: {
+   name: 'Netflix',
+   },
 		    
-		  }]
-		});
+   //sharing: false,
+		     
+   captions: {
+   color: '#FFF',
+   fontSize: 14,
+   backgroundOpacity: 0,
+   edgeStyle: 'raised' 
+		    },
 
+   playlist: [{
+
+   title: "",
+   //description: "",
+   image: "",
+   sources: [{
+   file: "https://acong.freemiumiptv.top/mnclokal/live/eds/soccerchannel-test/sa_dash_vmx/soccerchannel-test.mpd",
+          
+   drm: {
+            widevine: { 'url':"https://drmwidevine.nontonbola.my.id/https://acong.freemiumiptv.top/gdp/mncwidevine/?token=Uk56cEp6eTlIRjdNYUdrZEVZK3VUQT09Ojrv6Epfvtvla6AgaRET2Z96"}},
+
+	   
+   label: '4K',
+   'type': 'mpd',
+   primary: 'html5',
+
+  },
+ ],
+		    
+}]
+});
 </script>
 
-
-  
-  
-  
 </body>
-</html>
+  </html>
