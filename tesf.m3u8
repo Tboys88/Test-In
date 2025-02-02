@@ -1,7 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1810000,RESOLUTION=1280x720
-http://119.28.164.212/play1nm.hnyongshun.cn/live/ballbar_18500.m3u8
+https://livecloud.pstatic.net/sports/lip2_kr/cnmssgpu0001/jvijhmwylxbpijrcgv9plljnjh84gh888k/hdntl=exp=1738515647~acl=*%2Fjvijhmwylxbpijrcgv9plljnjh84gh888k%2F*~data=hdntl~hmac=165804c58aeb31761e832be6725a970ec31deb0aa75712a6e58306da7bcf9b06/chunklist_480.stream.m3u8?hdnts=st=1738483237~exp=1738515647~acl=*/jvijhmwylxbpijrcgv9plljnjh84gh888k/*~hmac=0c992dadc379c6cf0a5c6820b502defad5dc70fb2c86822513ca5c45a0a074a9
+
 
 
 
