@@ -1,8 +1,7 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1810000,RESOLUTION=1280x720
-https://livecloud.akamaized.net/sports/lip2_kr2/anmssgpu0003/e0lfoksbenfvx9uciw1ntljknvxnkkvyq5/hdntl=exp=1741454080~acl=*%2fe0lfoksbenfvx9uciw1ntljknvxnkkvyq5%2f*~data=hdntl~hmac=fb07d905fbe2cba90f342185b16dfeb5c333f52da3cbe2ffc46cd00b1d2c5ab9/chunklist_480.stream.m3u8?hdnts=st=1741421659~exp=1741454069~acl=*/e0lfoksbenfvx9uciw1ntljknvxnkkvyq5/*~hmac=6f4a0512fb01176c503baa1b2cce8c84c10c3985759d8f0aad5e998f85a97dd8
-
+https://livecloud.akamaized.net/sports/lip2_kr2/anmssgpu0002/hn6e5hvvcgs5r7sddrhg3yhh95ptd5pmihg8/hdntl=exp=1741536995~acl=*%2fhn6e5hvvcgs5r7sddrhg3yhh95ptd5pmihg8%2f*~data=hdntl~hmac=12dc18f967b7c0374fded8f8bed032b198c1671cd2199ca94137eece33626588/chunklist_480.stream.m3u8?hdnts=st=1741503597~exp=1741536007~acl=*/hn6e5hvvcgs5r7sddrhg3yhh95ptd5pmihg8/*~hmac=70afebd8ede70ac1191672ead076a5fb030a54e70099968f4a668c881ba44c4b
 
 
 
